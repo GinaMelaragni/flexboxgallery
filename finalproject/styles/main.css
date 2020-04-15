@@ -1,0 +1,25 @@
+* {
+
+html {
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+
+
+}
+
+#gallery {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.row {
+  display: flex;
+  padding: 0 4px; 
+
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
